@@ -15,6 +15,9 @@ public class User {
     private String email;
 
     @Column
+    private String bio;
+
+    @Column
     private Long phone;
 
     public User() {
